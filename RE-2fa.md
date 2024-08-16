@@ -19,6 +19,7 @@ We can see here however there are some manually inserted strings. Given the name
 objdump -x didn't reveal anything too exciting.
 
 Let's jump into a windows VM, and quickly run the executable. I suspect we should be able to see the "wrong" message, as we do not have the correct string.
+
 ![s3](imgs/s3.png)
 
 As expected, we get the "wrong" message when the first factor is incorrect, however when no input given we get what looks like a system error message.
